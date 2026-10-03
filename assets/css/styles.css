@@ -917,6 +917,43 @@ a {
   color: var(--green);
 }
 
+.footer-qr-section {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.footer-qr-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 76px));
+  gap: 12px;
+}
+
+.footer-qr-card {
+  display: grid;
+  gap: 7px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.72rem;
+  font-weight: 900;
+  line-height: 1.1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-qr-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 4px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: var(--white);
+  object-fit: contain;
+}
+
+.footer-qr-card:hover,
+.footer-qr-card:focus-visible {
+  color: var(--green);
+}
+
 .footer-bottom {
   margin-top: 36px;
   padding-top: 24px;
