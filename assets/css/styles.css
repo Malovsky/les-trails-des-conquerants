@@ -299,6 +299,14 @@ a {
   font-size: clamp(1.08rem, 2vw, 1.28rem);
 }
 
+.hero-slogan {
+  max-width: 620px;
+  margin: -10px 0 28px;
+  color: var(--green);
+  font-size: clamp(1.18rem, 2.3vw, 1.55rem);
+  font-weight: 950;
+}
+
 .hero-actions,
 .section-actions,
 .cta-actions,
@@ -428,6 +436,25 @@ a {
 
 .text-stack > * + * {
   margin-top: 18px;
+}
+
+.legend-note {
+  padding: 18px 20px;
+  border: 2px solid var(--ink);
+  background: var(--mist);
+  box-shadow: 5px 5px 0 var(--green);
+}
+
+.legend-note span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--green-dark);
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.legend-note p {
+  margin: 0;
 }
 
 .text-stack h2,
@@ -802,6 +829,26 @@ a {
 .contact-form {
   display: grid;
   gap: 16px;
+}
+
+.mail-notice {
+  margin: 0 0 18px;
+  padding: 16px 18px;
+  border: 2px solid var(--ink);
+  background: var(--green);
+  color: var(--ink);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+
+.mail-notice strong {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.mail-notice p {
+  margin: 0;
 }
 
 .form-grid {
